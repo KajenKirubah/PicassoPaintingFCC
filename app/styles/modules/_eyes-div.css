@@ -1,0 +1,27 @@
+.eyes-div {
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    z-index: 3;
+
+    &__eyes {
+        width: 35px;
+        height: 20px;
+        background-color: #8b4513;
+        border-radius: 20px 50%;
+    }
+
+    &__right {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+
+    &__left {
+        position: absolute;
+        top: 15px;
+        left: 30px;
+    }
+}

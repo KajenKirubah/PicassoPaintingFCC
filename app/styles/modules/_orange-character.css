@@ -1,0 +1,15 @@
+.orange-character {
+    width: 150px;
+    height: 250px;
+    background-color: rgb(240, 78, 42);
+    position: absolute;
+    top: 15%;
+    left: 30%;
+
+    @mixin atSmall {
+        width: 250px;
+        height: 550px;
+        top: 25%;
+    left: 40%;
+    }
+}

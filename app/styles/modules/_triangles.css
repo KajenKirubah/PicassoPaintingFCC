@@ -1,0 +1,16 @@
+.triangles {
+    width: 250px;
+    height: 550px;
+
+    &__triangle {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 42px 45px 45px 0;
+        border-top-color: transparent;
+        border-bottom-color:  transparent;
+        border-left-color: transparent;
+        border-right-color: Gold;
+        display: inline-block;
+    }
+}

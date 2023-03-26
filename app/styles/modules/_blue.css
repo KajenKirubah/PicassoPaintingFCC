@@ -1,0 +1,19 @@
+.blue {
+    background-color: #1e90ff;
+
+    &--left {
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+    }
+
+    &--right {
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+    }
+}
